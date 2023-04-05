@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Pagina</title>
+</head>
+<body>
+    <header>
+        <h1 style="color: blue;">Cabecera</h1>
+    </header>
+
+    <nav>
+        <a href="#videos">Sección videos</a><br>
+        <a href="#videos">Sección videos</a><br>
+        <a href="#videos">Sección videos</a>
+    </nav>
+    
+
+    <h2>Links</h2>
+    <a href="https://google.com">Google</a> <br>
+    <a href="https://youtube.com">YouTube</a>
+
+    <h2 class="sec-img">Imagenes</h2>
+    <img src="https://ca-times.brightspotcdn.com/dims4/default/c3f4b96/2147483647/strip/true/crop/1970x1108+39+0/resize/1200x675!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F12%2Fa5%2F79e097ccf62312d18a025f22ce48%2Fhoyla-recuento-11-cosas-aman-gatos-top-001" alt="Gato">
+
+
+    <h2>Listas</h2>
+    <h3>Lista Ordenada</h3>
+
+    <h4>Listado del super</h4>
+    <ol>
+        <li>Azucar</li>
+        <li>Arroz</li>
+        <li>Fideos</li>
+    </ol>
+
+    <h3>Lista no Ordenada</h3>
+    <ul>
+        <li>Azucar</li>
+        <li>Arroz</li>
+        <li>Fideos</li>
+    </ul>
+
+    <h2>Formulario de contacto</h2>
+    <form action=""> <!--Define un formulario/ Action = donde se van a mandar los datos-->
+        <label for="">     Nombre:    </label> <!--Titulo que se pone al principio-->
+        <input type="text">
+        <br>
+
+        <label for="">     Apellido:    </label>
+        <input type="text">
+        <br>
+
+        <label for="">     Telefeno:    </label> <!--Titulo que se pone al principio-->
+        <input type="number">
+        <br>
+        
+        <label for="">     Mail:    </label>
+        <input type="email" required> <!--required es necesario completar ese campo-->
+        <br>
+
+        <label for="">     Contraseña:    </label>
+        <input type="password" required> <!--required es necesario completar ese campo-->
+        <br>
+
+        <label for="">Dejanos tu consulta aqui:</label>
+        <textarea name="" id="" cols="30" rows="10" maxlength="5"></textarea> <!--Escribir un comentario largo-->
+        <br>
+
+        <button>Enviar</button>
+
+        <!-- Id para ir a esa sección (Enlace Interno/ Anclas)-->
+        <h4 id="videos">Videos</h4>
+        
+
+    </form>
+
+</body>
+</html>
