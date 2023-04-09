@@ -4,23 +4,58 @@
 }
 
 .titulo {
+    margin-top: 10px;
     font-size: 45px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-
 }
 
 body{
     background-color:lemonchiffon;
+}
+
+
+.introduccion {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.introduccion p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.titulo-indice{
+    text-align: center;
+}
+
+.indice{
+    margin-top: 25px;
+    font-size: 22px;
+    border: 1px solid #373a3c;
+    margin-left: 50px;
+    display: table;
+    padding: 7px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+}
+
+.links {
+    list-style: none;
+}
+
+.links a{
+    color: darkviolet;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.comienzos-banda {
+    margin-top: 30px;
     
 }
 
-.texto-inicio p{
-    color: #fff;
-    background-color: black;
-    height: 120px;
-    width: 70%;
-    box-sizing: border-box;
-    
-}
+
+
 
