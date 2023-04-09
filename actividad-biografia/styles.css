@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-size: 45px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+
+body{
+    background-color:lemonchiffon;
+    
+}
+
+.texto-inicio p{
+    color: #fff;
+    background-color: black;
+    height: 120px;
+    width: 70%;
+    box-sizing: border-box;
+    
+}
+
