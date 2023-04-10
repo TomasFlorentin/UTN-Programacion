@@ -10,26 +10,27 @@
     text-align: center;
 }
 
-body{
-    background-color:lemonchiffon;
+body {
+    background-color:rgba(255, 250, 205, 0.484);
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 .introduccion {
     margin-top: 25px;
     margin-left: 10px;
 }
 
-.introduccion p{
+.introduccion p {
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
-.titulo-indice{
+/* Indice */
+.titulo-indice {
     text-align: center;
 }
 
-.indice{
+.indice {
     margin-top: 25px;
     font-size: 22px;
     border: 1px solid #373a3c;
@@ -44,7 +45,7 @@ body{
     list-style: none;
 }
 
-.links a{
+.links a {
     color: darkviolet;
     text-decoration: none;
     font-size: 18px;
@@ -52,9 +53,33 @@ body{
 
 .secciones {
     margin-top: 30px;
-    
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+/* Comienzos de la Banda */
+.imagen-airbag{
+    height: 200px;
+    float: right;
+    margin-left: 14px;
 }
 
 
+/* Albunes */
+.albunes li{
+    margin-left: 15px;
+}
 
+/* Premios y Nominaciones */
+.premios-nominaciones table {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 29%;
+}
+
+.premios-nominaciones p {
+    margin-block-end: 30px;
+}
 
