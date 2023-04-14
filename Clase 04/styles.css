@@ -1,0 +1,87 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+/* Pagina Index */
+header, nav, article, section, aside, footer {
+    width: 100%;
+    /* height: 150px; */
+    border: 5px solid rgb(255, 255, 255);
+}
+
+header {
+    box-shadow: 50px;
+}
+
+.titulo{
+
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.imagenCabecera{
+    width: 400px;
+    border-radius: 50%;
+    margin-top: -170px;
+    margin-left: 10px;
+}
+
+nav {
+    text-align: center;
+    font-size: 30px;
+}
+
+nav>a{
+    /* Distancia entre los links */
+    margin: 15px;
+    text-decoration: none;
+}
+
+.introduccion{
+    font-size: 20px;
+}
+
+article {
+
+}
+
+section {
+    border: 5px solid red;
+    width: 20%;
+}
+
+.imagenMas {
+    float: right;
+    margin-top: -300px;
+    width: 30%;
+}
+
+aside {
+
+}
+
+footer {
+    border: 5px solid red;
+    text-align: center;
+}
+
+footer>a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+
+footer>a:hover{
+    color:black;
+    background-color: aqua;
+    /* opacity: 50%; */
+}
+/* Pagina Contacto */
+
+/* Pagina AcercaDe */
