@@ -1,0 +1,20 @@
+Primero tratar de hacer un boceto o idea de como hacer una página y después empezar a hacer la página.
+Para tener en cuenta que usar, si flexbox o grid. Pensar en como va a ser la página.
+
+FLEXBOX 
+Propiedades:
+display: flex; (indico que voy a usar las propiedades de flexbox)
+justify-content = Alinear Horizontal
+align-items = Alinear Vertical
+
+GRID
+Forma más complea de posicionar elementos
+(Flex es como un vector. es una linea de elementos || En cambio GRID es como una matriz. Hay que pensar en filas y columnas.)
+display: gird (Indico que uso las propiedades de Grid)
+
+(Contenedor padre)
+grid-template-columns: (definimos la cantidad de columnas en que dividimos)- Se usa la medida fr - ej: 1fr
+grid-template-rows: (Definimos la cantidad de filas)
+
+(Contenedor hijo)
+grid-columns: (Ponemos el color)

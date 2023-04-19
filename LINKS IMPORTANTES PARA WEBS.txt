@@ -8,3 +8,9 @@ animate.style
 
 Iconos gratis
 flaticon.es
+
+Juego Para aprender la alineación en css
+https://flexboxfroggy.com/#es
+
+Propiedades Flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
