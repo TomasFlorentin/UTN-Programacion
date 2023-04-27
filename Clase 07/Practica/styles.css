@@ -1,0 +1,25 @@
+.navbar{
+    background-color: rgb(94, 208, 134);    
+}
+
+.logo{
+    width: 50px;
+}
+
+.nav-link{
+    font-size: 120%;
+    color: black;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+.contenedor-carousel>.carousel{
+    align-items: center;
+}
+
+.carousel{
+    width: 50%;
+    border-right: -50px;
+}
