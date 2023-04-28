@@ -1,0 +1,17 @@
+.carousel{
+    display: flex;
+}
+
+.imagen{
+    width: 50%;
+}
+
+h1{
+    text-align: center;
+}
+
+.imgenSpace{
+    background-image: url(https://media.istockphoto.com/id/481229372/es/foto/galaxia-espiral-ilustraci%C3%B3n-de-la-v%C3%ADa-l%C3%A1ctea.jpg?s=612x612&w=0&k=20&c=aTxFsk4rtxX_zZi5Lh5HG1HY3cR0Iu2O3AZMvwx4YbU=);
+    background-size: cover;
+}
+
