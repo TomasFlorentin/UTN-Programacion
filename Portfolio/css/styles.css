@@ -1,0 +1,20 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.7), rgba(0,0,0,0)), url(../img/inicio.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: top;
+}
+
+header h1{
+    font-size: 100px;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 40px;
+}
