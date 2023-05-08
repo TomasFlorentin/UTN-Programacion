@@ -1,0 +1,46 @@
+JavaScript = Se le agrega un comportamiento a la pagina. El usuario puede interactuar con el.
+HTML, CSS y JAVASCRIPT son las piezas que forman el desarrollo web.
+
+Caracteristicas
+-Va del lado del cliente, se ejecuta en el navegador.
+-Orientado en objetos.
+-Tipado debil o no tipado: No hay que especificar el tipo de dato.
+-Alto nivel.
+-Muy utilizado por los desarrolladores. (te piden tener nivel en javascript)
+-Interactividad con el usuario: Podemos validar datos de un formulario.
+
+El codigo puede ser incorporado al codigo html con la etiqueta <script> en el head, donde se puede escribir código.
+
+Ubicación de la etiqueta <script>
+-Head: antes de empezar a dibujar la página, cuando está en blanco.
+-Body: Cuando la pagina se haya dibujado hasta el <script>
+-Antes de body: Cuando 
+
+Consola de JavaScript:
+CTRL+Shift+f
+Todo lo que se escriba se va a mostrar en la consola.
+
+Quokka = para ver el codigo en la terminal
+
+Incorporar un archivo externo:
+Podemos vincular un archivo con extensión .js usando la etiqueta <script>, haciendo referencia al nombre del arhivo JavaScript con el atributo src.
+
+Comentarios "//" para una linea  o "/* para varias lineas.
+
+Variables: "cajita" dentro de un programa.
+Tiene:
+-Nombre = Debe ser representativo de la información que contien.
+-Tipo de Dato = Numero, texto, valores booleanos, etc.
+-Contenido = valor que tienen se puede cambiar.
+Variables casi no se usan, porque puede traer problemas el hecho de que se pueda modificar.
+
+Constantes: No se pueden cambiar a lo largo del programa, siempre valen un solo valor.
+
+Tipos de datos:
+typeof = Saber el tipo de dato
+
+Funcion "prompt()"
+Metodo de ventana, se usa para solicitar al usuario que ingrese datos por medio de ventana.
+
+Tarea:
+Preguntar que hacer primero y que muestre un resultado, suma, resta, multiplicación

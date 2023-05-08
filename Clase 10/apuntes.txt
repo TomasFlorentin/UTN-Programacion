@@ -1,0 +1,69 @@
+JavaScript
+Comparadores Lógicos
+== : Igual a
+=== : Igual valor y tipo
+!= : no igual a
+!== igual valor no tipo
+? : operador ternario (no se ve)
+
+Operadores Lógicos: Valores booleanos
+
+&& : Y lógico (conjunción)
+|| : O lógico (disyunción)
+! : No lógico (negación)
+
+Operadores prefijo y posfijo: 
+afijos: anteponen o posponen en un nombre de una variable.
+prefijo: antepone a la variable
+posfijo: se pospone a la variable
+
+i++ = incremento posfijo. Ej: a=i++ primero a=i y después i=i+1.
+++i = incremento prefijo. Ej: a=++i primero i=i+1 y después a=i.
+i-- = decremento posfijo. Ej: a=i-- primero a=i y después i=i-1.
+--i = decremento prefijo. Ej: a=--i primero i=i-1 y después a=i.
+
+Operadores de asignación
+= - x=3 - x=3
++= - x+=y x=x+y
+-= - x-=y x=x-y
+*= - x*=y x=x*y
+/= - x/=y x=x/y
+%= - x%=y x=x%y
+**= - x**=y x=x**y
+
+Jerarquía de los operadores de menos prioritario a más prioritario:
+
+
+Estructuras de control = instrucciones que nos permiten evaluar si se tiene que cumplir una condición o no.
+Nos permiten evaluar si se cumple una condición o no.
+Hay otras estructuras, que se llaman ciclos, bucles o loops. Se evalua una condición n cantidad de veces.
+
+Estructuras:
+if = Condición simple.
+if/else = condición alternativa.
+? = Operador ternario. Equivalente a IF/else, metodo abreviado.
+switch = Estructura para casos especificos.
+
+Estructura de control: Hay un orden para el desarrollo de un programa. Se lo conoce como "Flujo del programa"
+Por defecto se lee de forma secuencial.
+
+Estructura if:
+Indicamos que se tome un camino solo si se cumple la condición que establezcamos.
+else:
+Podemos establecer una acción "A" si se cumple la condición y una acción "B".
+
+
+Estructuras de if con && (AND) y || (OR)
+con && todas las condiciones deben de cumplirse.
+
+
+Bucles e iteraciones: 
+while = bucles simples.
+for = bucles más utilizados.
+do while.
+
+Codición = condición que se evalua para saber si repetir el bucle o finalizarlo.
+Iteracion = Cada repetición de un bucle.
+Contador = cuenta el número de repeticiones que ha hecho hasta llegar a un número concreto y finalizar.
+Incremento: Cada vez que finaliza el bucle, se realiza el incremento o decremento de una variable.
+Bucle infinito = Cuando no se modifica la variable contador.
