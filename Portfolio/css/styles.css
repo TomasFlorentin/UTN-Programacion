@@ -34,3 +34,12 @@ header p {
     align-items: center;
     justify-content: space-around;
 }
+
+.bi{
+    color: white;
+}
+
+.bi:hover{
+    color: brown;
+    transform: scale(1.40);
+}
