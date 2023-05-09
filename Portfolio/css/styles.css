@@ -2,6 +2,12 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.titulos{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+/* Header */
 header{
     background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.7), rgba(0,0,0,0)), url(../img/inicio.jpeg);
     background-repeat: no-repeat;
@@ -19,20 +25,19 @@ header p {
     margin-top: 40px;
 }
 
-.titulos{
-    font-size: 50px;
-    margin-top: 20px;
-}
+/* Acerca de Mi */
 
+
+/* Habilidades */
+
+
+/* Estudios */
+
+
+/* Footer */
 .contenedor-footer{
     background-color: black;
     padding: 30px;
-}
-
-.info-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .bi{
