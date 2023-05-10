@@ -5,6 +5,7 @@ body{
 .titulos{
     font-size: 50px;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 /* Header */
@@ -26,13 +27,18 @@ header p {
 }
 
 /* Acerca de Mi */
-.titulos{
-    margin-bottom: 30px;
-}
 
 /* Habilidades */
+.titulo-habilidades{
+    font-size: 50px;
+    margin-top: 20px;
+}
 
+.progress{
+    margin-bottom: 10px;
+}
 
+.progress-bar
 /* Estudios */
 
 
