@@ -1,0 +1,30 @@
+Funciones
+
+Grupo de instrucciones que resuelven un problema completo. Nos permite dividir un problema complejos en partes menores y más simples.
+
+Razones para declarar funciones:
+- Simplificacion: Si se usa muchas veces un conjunto de instrucciones, se crea y se puede llamar la cantidad de veces que sea necesario.
+- División: Permite modularizar, un equipo puede dividir el trabajo en partes.
+- Claridad: Se ve mucho más simple.
+- Reusabilidad: Todas las funciones son reutilizables, solo que es necesario cambiar los valores de entrada.
+
+Declarar una funcion: El nombre debe de ser referente a lo que hace
+ej:
+function saludar(){
+    console.log("Hola! soy la funcion hola()");
+}
+Y hay que invocarla para que funcione:
+saludar();
+
+Tienen que ser 
+- nombres simples
+- representativos a la tarea.
+- Verbos en infinitivos.
+- Si es más de una plabra, utilizar la nomenclatura camelCase
+- definir los datos de entrada si es que se necesitan.
+
+Clasificación:
+Funciones con parametros.
+Funciones sin parametros.
+
+Funciones que devuelven valor:
