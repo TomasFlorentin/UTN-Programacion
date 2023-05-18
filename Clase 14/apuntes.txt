@@ -1,0 +1,36 @@
+DOM Document Object Model
+Interfaz de programación para los documentos HTML.
+Permite modificar esta estructura de forma dinámica, añadiendo o modificando elementos.
+Al documento lo ve como un nodo u objeto
+
+Su estructura es jerarquica, con elementos que dependen unos de otros.
+
+Objeto document (HTML) contiene atributos y métodos de la estructura que representa al documento.
+DOM posee elementos (element etiquetas html) y nodos (clases).
+Podemos modificar elementos con el metodo tradicional.
+
+document permite identificar elementos por sus atributos. Por ej: id o class (getElementById(id), getElementoByClassName(clase), etc) 
+Get es que traiga el elemento
+set modifican o establecen un valor.
+
+innerHTML() me escribe el codigo html en un elemento, entre parentesis se pasa el argumento.
+
+Metodos modernos:
+Dos nuevos métodos de busqueda de elementos
+.querySelector("") Primer elemento que encaja con el selector Css suministrado entre parentesis.
+.querySelectorAll("") si hay más elementos devuelve un array con todos los elementos que coinciden con el estilo.
+El estilo se se pone de igual manera que en css .clase
+
+Podemos crear elementos en el HTML o nodos, que nos permiten agregar documentos estructuras dinamicas.
+element.createElement(tag, options) Crea y devuelve el elemento HTML
+
+document.section.appendChild(nombre del elemento)
+document.getElementById("id").appendChild() para agregar un elemento en una sección especifica.
+
+
+Eventos
+a traves de un atributo html = tag onclick=""
+a traves de una propiedad de js = tag onclick=..
+a traves de un metodo a
+
+Para que los cambios se guarden hay que investigar con JSON.

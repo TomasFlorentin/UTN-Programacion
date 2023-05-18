@@ -1,0 +1,65 @@
+Arrays (Arreglo o Vector)
+Objetos similares a una lista, se le puede hacer operaciones de recorridos y de mutación.
+Su contenido son variables y su contenido puede ser distinto.
+Agrupación de elementos en una misma variable.
+Poseen un índice, valor para identificar el contenido en esa posición.
+
+posición
+Cuando usamos array[0] estamos accediendo a la posición del array.
+
+
+.length devuelve la cantidad de elementos que posee un array.
+
+Recorrer un vector
+Utilizando bucle for y la propiedad .length
+
+Metodos
+.push(obj1, obj2) Añade uno o varios elementos al final del array.
+
+.pop() elimina el último elemento
+
+.unshift(obj1,obj2) = Añade uno varios elementos al inicio
+shift() Elemina el primer elemento,
+
+.concat (obj1, obj2) Concatena los elementos de los arrays.
+
+
+Otros
+.splice() agrega o elimina elementos a una array
+.slice() 
+.reverse() Invierte el orden de elementos del array
+.sort() Ordenan los elementos (solo cadenas de texto)
+
+
+
+.forEach(cb, arg) realiza la operacion definida en cb por cada elemento del array.
+.every(cb, arg) Comprueba si los elementos del array cumplen la condición de cb.
+.some(cb, arg) Comprueba si al menos un elem del array cumple la condición de cb
+.map(cb, arg) Construye un array con lo que devuelve cb por cada elemento del array.
+.filter(cb, arg) Construye un array con los elementos que cumplen con el filtro de cb.
+
+findIndex(cb, arg) Devuelve la posición del elemento que cumple la condición de cb.
+find(cb, arg) Devuelve el elemento que cumple con la condición de cb.
+.reduce(cb, arg) Ejecuta cb con cada elemento (de izq a der,), acumulando el resultado.
+.reduceRight(cb, arg) Idem al anterior, pero en orden de derecha a izquierda.
+
+
+
+For in recorre las propiedades de un objeto, por ejemplo, un string o un array.
+for(variable in object){
+
+}
+Variable es variable que itera a través de las propiedades del objeto. 
+
+
+for in Objetos
+Recorre de principio a fin sin indicar desde donde ni hasta donde.
+
+
+Web Storage
+Almacenar informacion en formato de texto en el dispositivo del usuario. La API de almacenamiento web proporciona los mecanismos mediante los caules el navegador puede alamacenar información de tipo clave/valor.
+Dos formas:
+A nivel local (localStorage) = Al cerrar el navegador la información permanece en el dispositivo y pueden ser recuperados en una sesión posterior.
+A nivel sesión (sessionStorage) = Al finalizar la sesión de la información almacenada se elimina.
+
+
